@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <style>
+        body{
+            background: rgb(207, 204, 204);
+        }
+        #radius{
+            background: linear-gradient(40deg, #9b2dce, #e6d70c);
+            border-radius: 20px;
+        }
+        #signpage a{
+            color: rgb(204, 204, 3);
+        }
+        .heading h2{
+            font-size: 41px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- This is the Sign Up form  -->
+    <div class="container pt-5">
+        <div class="row" id="radius">
+            <div class="col-6 px-0">
+                <img src="/login.jpg" alt="main_image" class="img-fluid" id="radius">
+            </div>
+            <div class="col-6">
+                <form>
+                    <div class="heading pb-3">
+                        <h2>Get Account In Ashokicodder....</h2>
+                    </div>
+                    <div class="mb-1">
+                        <label for="exampleInputEmail1" class="form-label text-white fw-bold">Username or Email:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-1">
+                        <label for="name" class="form-label text-white fw-bold"> Full Name:</label>
+                        <input type="text" class="form-control" name="name" id="name">
+                    </div>
+                    <div class="mb-1">
+                        <label for="number" class="form-label text-white fw-bold">Number or Whatapp Number:</label>
+                        <input type="number" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-1">
+                        <label for="password" class="form-label text-white fw-bold">Password:</label>
+                        <input type="text" class="form-control" name="password" id="password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="cpassword" class="form-label text-white fw-bold">Confirm Password:</label>
+                        <input type="password" class="form-control" name="cpassword" id="cpassword">
+                    </div>
+                    <input type="submit" value="Register" class="btn btn-primary" />
+                    <p class="pt-3 text-white fw-bold" id="signpage">
+                       Have you Already Account?<a href="/login.html"> Log In</a> 
+                    </p>
+                </form>
+            </div>
+        </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
